@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBasic {
+    padding: 25px;
+    margin-top: 30%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    
+    
+}
+
+input{
+    width: 400px;
+    display: block;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 25px;
+}
+
+.boton{
+    background-color: brown;
+}
+
+.boton:hover{
+    background-color: aqua;
+}

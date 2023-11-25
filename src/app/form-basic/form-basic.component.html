@@ -1,0 +1,10 @@
+<form class="formBasic" id="form">
+    <h2>Formulario basico</h2>
+
+        <div>
+            <input id="nombre" type="text" placeholder="Nombre" #txtNombre>
+            <input id="contraseña" type="password" placeholder="contraseña" #txtContrasena>
+
+            <input class="boton" type="submit" value="Enviar" (click)="validar(txtNombre.value,txtContrasena.value)">
+        </div>
+</form>
